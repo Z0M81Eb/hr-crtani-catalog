@@ -1,0 +1,11 @@
+# One IMDb ID per line. Studio & row sorting happens automatically via TMDB.
+# Optional override format: tt1234567 | row_id
+# Valid row_ids: hr_disney_classic, hr_disney_modern, hr_pixar, hr_dreamworks, hr_illumination, hr_lego, hr_ostali_crtani, hr_filmovi
+
+tt0110357
+tt1449283 | hr_disney_classic
+tt2294629
+tt0114709
+tt0126029
+tt1323594
+tt1490017
