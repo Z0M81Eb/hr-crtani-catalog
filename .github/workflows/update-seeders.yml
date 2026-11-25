@@ -1,0 +1,27 @@
+name: Update Seeders
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Scrape tracker seeders
+        run: python update_seeders.py
+      - name: Commit updated db.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add db.json
+          git diff --staged --quiet || git commit -m "Auto-update seeder counts"
+          git push
