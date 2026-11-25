@@ -1,0 +1,33 @@
+{
+  "metas": [
+    {
+      "id": "tt0110357",
+      "type": "movie",
+      "name": "Kralj lavova",
+      "poster": "https://image.tmdb.org/t/p/w500/9WSNUWOIB1i4ErMnXMeHruLjlII.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wXsQvli6tWqja51pYxXNG1LFIGV.jpg",
+      "description": "Bezbrižno djetinjstvo princa Simbe, sina moćnog kralja Mufase, naglo je prekinuto kada mu ujak Scar ubije oca, a Simbu proglasi odgovornim i protjera ga iz kraljevstva. U progonstvu se lavić sprijatelji s bradavičastom svinjom Pumbom i merkatom Timonom, s kojima provodi dane i od kojih uči. No približava se dan njegove punoljetnosti i Simbu posjeti duh oca, koji mu govori da se mora vratiti u kraljevstvo, poraziti Scara te zauzeti mjesto na tronu. Prihvaćajući \"hakuna matata“ filozofiju, zajedno sa svojim komičnim prijateljima, Simba kreće uzeti ono što mu pripada.",
+      "releaseInfo": "1994",
+      "genres": [
+        "Animation",
+        "Family",
+        "Drama"
+      ]
+    },
+    {
+      "id": "tt1449283",
+      "type": "movie",
+      "name": "Medvjedić Winnie",
+      "poster": "https://image.tmdb.org/t/p/w500/xlFs85nq62jeR4a9iHNGB113m6x.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/e0SlSnLQzIhdcr86akVJinA1Jau.jpg",
+      "description": "During an ordinary day in Hundred Acre Wood, Winnie the Pooh sets out to find some honey. Misinterpreting a note from Christopher Robin, Owl convinces Pooh, Tigger, Rabbit, Piglet, Kanga, Roo, and Eeyore that their young friend has been captured by a creature named \"Backson\" and they set out to rescue him.",
+      "releaseInfo": "2011",
+      "genres": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Comedy"
+      ]
+    }
+  ]
+}

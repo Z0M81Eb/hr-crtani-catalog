@@ -1,0 +1,20 @@
+{
+  "metas": [
+    {
+      "id": "tt1490017",
+      "type": "movie",
+      "name": "LEGO film",
+      "poster": "https://image.tmdb.org/t/p/w500/jXGtrHmmNtbR5ieApuSm7QKcYNO.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/6gI1dAkOaUQ6659OdRPsTLlsem5.jpg",
+      "description": "LEGO film prati Emmeta, običnu i potpuno prosječnu LEGO figuricu koji uvijek poštuje pravila. Zabunom, Emmeta prepoznaju kao izvanrednu osobu i kao ključ za spas cijelog svijeta. Emmet je ubrzo unovačen i postaje dio družine koja kreće u misiju zaustavljanja zlog tiranina - misiju za koju je Emmet beznadno i nevjerojatno smiješno nepripremljen.",
+      "releaseInfo": "2014",
+      "genres": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ]
+    }
+  ]
+}

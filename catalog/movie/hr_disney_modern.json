@@ -1,0 +1,19 @@
+{
+  "metas": [
+    {
+      "id": "tt2294629",
+      "type": "movie",
+      "name": "Snježno kraljevstvo",
+      "poster": "https://image.tmdb.org/t/p/w500/fbvRfZGaEsOAhZ1JXpHZBohWfGM.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rj58WQ9ImI0mYDptXdM7euX1Wjt.jpg",
+      "description": "Inspiriran bajkom Snježna kraljica H. C. Andersena, Disney vas odvodi u avanturu Snježnim kraljevstvom uz neustrašivu optimisticu Annu koja, uz pomoć gorštaka Kristoffera i nespretnog snjegovića Olafa prkosi ledenim opasnostima dok traga za sestrom Elsom čije su ledene magične moći ovile kraljevstvo u vječnu zimu. Uz mistična bića, neočekivane prevrate i prijateljstva Disney donosi još jednu poslasticu za cijelu obitelj.",
+      "releaseInfo": "2013",
+      "genres": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Fantasy"
+      ]
+    }
+  ]
+}

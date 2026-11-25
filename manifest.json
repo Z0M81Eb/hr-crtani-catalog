@@ -1,0 +1,54 @@
+{
+  "id": "org.hrsink.catalog",
+  "version": "1.0.0",
+  "name": "HR Sinkronizirani Crtani",
+  "description": "Katalog hrvatskih sinkroniziranih crtanih filmova i filmova za djecu",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "hr_disney_classic",
+      "name": "Disney Klasici"
+    },
+    {
+      "type": "movie",
+      "id": "hr_disney_modern",
+      "name": "Moderni Disney"
+    },
+    {
+      "type": "movie",
+      "id": "hr_pixar",
+      "name": "Pixar"
+    },
+    {
+      "type": "movie",
+      "id": "hr_dreamworks",
+      "name": "DreamWorks"
+    },
+    {
+      "type": "movie",
+      "id": "hr_illumination",
+      "name": "Illumination"
+    },
+    {
+      "type": "movie",
+      "id": "hr_lego",
+      "name": "LEGO"
+    },
+    {
+      "type": "movie",
+      "id": "hr_ostali_crtani",
+      "name": "Ostali crtani"
+    },
+    {
+      "type": "movie",
+      "id": "hr_filmovi",
+      "name": "Filmovi za djecu"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "metas": [
+    {
+      "id": "tt0126029",
+      "type": "movie",
+      "name": "Shrek",
+      "poster": "https://image.tmdb.org/t/p/w500/qbX9UE0Vq431aquc8smuGV4g2qg.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2Biv1mSzaaxWOqvcnDZn4GcYEAb.jpg",
+      "description": "Shrek je ljudožder koji u šumi živi sam i mrzi ljude. Kada lord Farquaad, vladar Duloca, progna sva bića iz bajki u šumu, Shrek odjednom više nije sam i njegov dom postane skloništem za izbjeglice, što ga neizmjerno živcira. Naime, sve što Shrek želi je da ga ostave na miru, a to je trenutačno nemoguće. Shrek traži od lorda Farquaada da primi natrag bića iz bajke, na što ovaj pristane, uz jedan uvjet: ako mu Shrek dovede princezu Fionu kako bio on, ženidbom s njom postao kralj.",
+      "releaseInfo": "2001",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Fantasy",
+        "Adventure",
+        "Family"
+      ]
+    }
+  ]
+}
