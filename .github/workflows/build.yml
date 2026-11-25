@@ -1,0 +1,35 @@
+name: Build Catalog
+
+on:
+  push:
+    paths:
+      - "titles.txt"
+      - "build_catalog.py"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Build catalog JSONs
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python build_catalog.py
+
+      - name: Commit updated catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifest.json catalog/
+          git diff --cached --quiet || git commit -m "Update HR catalog"
+          git push
